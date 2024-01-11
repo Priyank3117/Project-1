@@ -1,0 +1,49 @@
+img{
+    height: 30px;
+}
+
+#sidebar
+{
+    height: 100vh;
+}
+
+.flex-row{
+    margin-top: 20px;
+    height: 43px;
+}
+
+.flex-row img {
+    margin-left: -10px;
+}
+
+.flex-row span{
+    margin-left: 5px;
+}
+
+#main{
+    height: 100vh;
+    background-color:#dbd6d6;
+}
+
+#main #dash1{
+    height: 80px;
+    font-size: 32px;
+    font-weight: bolder;
+}
+#main .bg{
+    height: 116px;
+    width: 300px;
+    border: 2px solid black;
+}
+
+.card1 img{
+
+    height: 50px;
+    
+}
+
+#main .row .layout{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+}
