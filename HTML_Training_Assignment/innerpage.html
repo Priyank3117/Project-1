@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- bootstarp added -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/innerpage.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="container-fluid" id="nav">
+      <div class="row">
+        <div class="col col-10 p-2">
+          <img class="ms-2 mt-2 mb-2" src="images/menu-bar.svg" alt="" />
+          <img class="ms-3" src="images/header-logo.svg" alt="" />
+          <img
+            src="images/search-icon.svg"
+            alt=""
+            style="height: 30px; margin-left: 76px"
+          />
+          <span>search</span>
+        </div>
+
+        <div
+          class="col col-2 my-auto d-flex justify-content-around"
+          id="nav-right"
+        >
+          <img src="images/notification-icon.svg" alt="" />
+          <div>
+            <img src="images/profile.png" alt="" />
+            <span>John Doe</span>
+          </div>
+          <img class="" src="images/downward-arrow.svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- navbar -->
+
+    <!-- sidebar -->
+    <div class="container-fluid">
+      <div class="row">
+        <!-- sidebar -->
+
+        <div class="col-2 flex-column bd-highlight mb-3 mt-3" id="sidebar">
+          <div class="flex-row" style="background-color: #fff3f4">
+            <img src="images/dashboard-active.svg" alt="" />
+            <span style="color: #c8242f">Dashboard</span>
+          </div>
+          <div class="flex-row">
+            <img src="images/graph-default.svg" alt="" />
+            <span>Analysis</span>
+          </div>
+          <div class="flex-row">
+            <img src="images/inbox-default.svg" alt="" />
+            <span>Inbox</span>
+          </div>
+          <div class="flex-row">
+            <img src="images/user-default.svg" alt="" />
+            <span>User</span>
+          </div>
+          <div class="flex-row">
+            <img src="images/maintenance-default.svg" alt="" />
+            <span>Maintainence</span>
+          </div>
+          <div class="flex-row">
+            <img src="images/setting-default.svg" alt="" />
+            <span>Setting</span>
+          </div>
+        </div>
+        <!-- sidebar -->
+
+        <!-- form start -->
+        <div class="col col-10 bg-body-secondary" style="height: 100%">
+          <h2 class="mt-4 ms-4 mb-5">Analysis</h2>
+
+          <!-- bg-white container -->
+          <div
+            class="container-fluid bg-white"
+            style="height: 100%; width: 95%"
+          >
+            <form>
+              <!-- first column -->
+              <div class="form-group">
+                <h4 class="mb-3 fw-10">One Column</h4>
+                <input
+                  type="email"
+                  class="form-control mb-3 p-3"
+                  placeholder="Name"
+                />
+                <select class="form-control p-3">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+
+                <textarea
+                  class="form-control mt-3"
+                  rows="5"
+                  placeholder="Multiple lines"
+                ></textarea>
+
+                <!-- first column end-->
+
+                <!-- 2nd column -->
+
+                <h4 class="mt-5 mb-3 fw-10">Two Column</h4>
+
+                <div class="row">
+                  <div class="col form-group">
+                    <input
+                      type="email"
+                      class="form-control mb-3 p-3"
+                      placeholder="Name"
+                    />
+                  </div>
+                  <div class="col form-group">
+                    <input
+                      type="email"
+                      class="form-control mb-3 p-3"
+                      placeholder="johndoe"
+                    />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col form-group">
+                    <input
+                      type="email"
+                      class="form-control mb-3 p-3"
+                      placeholder="Password"
+                    />
+                  </div>
+                  <div class="col form-group">
+                    <select class="form-control p-3">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </div>
+                </div>
+                <!-- 2nd column -->
+
+                <!-- 3rd column -->
+                <h4 class="mt-5 mb-3 fw-10">Three Column</h4>
+
+                <div class="row">
+                  <div class="col form-group">
+                    <input
+                      type="email"
+                      class="form-control mb-3 p-3"
+                      placeholder=""
+                    />
+                  </div>
+                  <div class="col form-group">
+                    <input
+                      type="email"
+                      class="form-control mb-3 p-3"
+                      placeholder="Password"
+                    />
+                  </div>
+                  <div class="col form-group">
+                    <input
+                      type="email"
+                      class="form-control mb-3 p-3"
+                      placeholder="johndoe"
+                    />
+                  </div>
+                </div>
+                <!-- 3rd column end-->
+
+                <!-- 4th coloum -->
+                <h4 class="mt-5 mb-3 fw-10">Four Column</h4>
+
+                <div class="row">
+                  <div class="col form-group">
+                    <input
+                      type="email"
+                      class="form-control mb-1 p-3"
+                      placeholder="UI designer"
+                    />
+                    <label for="">enter valid data</label>
+                  </div>
+                  <div class="col form-group">
+                    <input
+                      type="email"
+                      class="form-control mb-1 p-3"
+                      placeholder="Name"
+                    />
+                    <label for="">Enter your full name as per id</label>
+                  </div>
+                  <div class="col form-group">
+                    <input
+                      type="email"
+                      class="form-control mb-3 p-3"
+                      placeholder="johndoe"
+                    />
+                  </div>
+                  <div class="col form-group">
+                    <input
+                      type="email"
+                      class="form-control mb-3 p-3"
+                      placeholder="Select"
+                    />
+                  </div>
+                </div>
+
+                <!-- 4th coloum end-->
+
+                <!--upload buttom-->
+                <h4 class="mt-5 mb-3 fw-10">Other Design Elements</h4>
+
+                <h5 class="mt-5 mb-3 fw-3">File Upload</h5>
+
+                <button
+                  type="button"
+                  class="btn btn-outline-danger"
+                  style="border-radius: 30px; width: 130px; padding: 4px 10px"
+                >
+                  <img src="images/cloud-upload-icon.svg" alt="" />
+                  <span class="fs-9">Upload</span>
+                </button>
+
+                <span style="font-size: 12px; color: #adadad" class="ms-2"
+                  >No item is selected</span
+                >
+                <!--upload buttom end-->
+
+                <h5 class="mt-5 mb-3 fw-3">Radio button</h5>
+
+                <div class="row">
+                  <div class="form-check form-check-inline col col-1">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="inlineRadioOptions"
+                      id="inlineRadio2"
+                      value="option2"
+                    />
+                    <label class="form-check-label" for="inlineRadio2"
+                      >option 1</label
+                    >
+                  </div>
+                  <div class="form-check form-check-inline col col-1">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="inlineRadioOptions"
+                      id="inlineRadio2"
+                      value="option2"
+                    />
+                    <label class="form-check-label" for="inlineRadio2"
+                      >option 2</label
+                    >
+                  </div>
+                </div>
+                <h5 class="mt-5 mb-3 fw-3">Checkbox</h5>
+
+                <div class="row">
+                  <div class="form-check form-check-inline col col-1">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="inlineCheckbox1"
+                      value="option1"
+                    />
+                    <label class="form-check-label" for="inlineCheckbox1"
+                      >1</label
+                    >
+                  </div>
+                  <div class="form-check form-check-inline col col-1">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="inlineCheckbox2"
+                      value="option2"
+                    />
+                    <label class="form-check-label" for="inlineCheckbox2"
+                      >2</label
+                    >
+                  </div>
+                </div>
+                <!-- snackbar -->
+                <h5 class="mt-5 mb-3 fw-3">Snackbar</h5>
+
+                <div class="row">
+                  <div class="col">
+                    <div class="alert bg-white alert-danger" role="alert">
+                      <img src="images/error-icon.svg" alt="" />
+                      <span class="text-danger ms-2"
+                        >This is an error message</span
+                      >
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="alert bg-white alert-info" role="alert">
+                      <img src="images/info-icon.svg" alt="" />
+                      <span class="text-primary ms-2"
+                        >This is an information message</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="alert bg-white alert-warning" role="alert">
+                      <img src="images/warning-icon.svg" alt="" />
+                      <span class="text-warning ms-2"
+                        >This is an warning message</span
+                      >
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="alert bg-white alert-success" role="alert">
+                      <img src="images/success-icon.svg" alt="" />
+                      <span class="text-success ms-2"
+                        >This is an success message</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- snackbar end -->
+
+                <!-- call to action  -->
+                <h5 class="mt-5 mb-3 fw-3">Call to action</h5>
+
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  style="border-radius: 30px; width: 130px; padding: 10px"
+                >
+                  <span class="fs-5">Primary</span>
+                </button>
+
+                <button
+                  type="button"
+                  class="btn btn-outline-danger"
+                  style="border-radius: 30px; width: 130px; padding: 10px"
+                >
+                  <span class="fs-5 fw-semibold bg-text-danger">Secondary</span>
+                </button>
+
+                <!-- call to action end -->
+                <h5 class="mt-5 mb-3 fw-3">Tabs</h5>
+
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link  text-danger" href="#">Tab 1</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-muted" href="#">Tab 2</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-muted" href="#">Tab 3</a>
+                    </li>
+                  
+                  </ul>
+
+
+
+              </div>
+            </form>
+
+            <!-- ------------------------------>
+          </div>
+        </div>
+        <!-- form start -->
+      </div>
+    </div>
+  </body>
+</html>
