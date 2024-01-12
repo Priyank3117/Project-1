@@ -21,7 +21,6 @@ img{
 }
 
 #main{
-    height: 100vh;
     background-color:#dbd6d6;
 }
 
@@ -36,14 +35,47 @@ img{
     border: 2px solid black;
 }
 
-.card1 img{
 
+#sidebar .row
+{
+    height: 100vh;
+}
+
+div#text
+{
+    font-size: 32px;
+    color: #000000;
+    height: 100px;
+    background-color: #FAFAFA;
+}
+
+div.card-img img{
     height: 50px;
+}
+
+div.num {
+    font-size: 25px;
+    color: #3E3E3E;
+}
+
+
+div.num-text{
+    margin-top:0 ;
+    
+}
+div.num-text span{
+    font-size: 15px;
+    color: #3E3E3E;
     
 }
 
-#main .row .layout{
-    height: 40px;
-    width: 40px;
-    background-color: white;
+div.custom
+{
+    height: 150px;
+    width: 150px;
+ 
 }
+
+
+
+
