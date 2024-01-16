@@ -78,7 +78,7 @@
           
           <div class="container-fluid mt-4" style="height: 20%; width: 100%">
             <div class="row gx-5 text-center">
-              <div class="col bg-white mx-3 py-4 d-flex">
+              <div class="col bg-white mx-3 py-4 d-flex mt-2">
                 <img
                 src="images/star.svg"
                 alt=""
@@ -90,7 +90,7 @@
                   <h5>New Product</h5>
                 </div>
               </div>
-              <div class="col bg-white mx-3 py-4 d-flex">
+              <div class="col bg-white mx-3 py-4 d-flex mt-2">
                 <img
                 src="images/new-product.svg"
                 alt=""
@@ -102,7 +102,7 @@
                   <span>Added Product</span>
                 </div>
               </div>
-              <div class="col bg-white mx-3 py-4 d-flex">
+              <div class="col bg-white mx-3 py-4 d-flex mt-2">
                 <img
                 src="images/total-product.svg"
                 alt=""
@@ -115,7 +115,7 @@
                   <span>Total Product</span>
                 </div>
               </div>
-              <div class="col bg-white mx-3 py-4 d-flex">
+              <div class="col bg-white mx-3 py-4 d-flex mt-2">
                 <img
                 src="images/dollar-filled.svg"
                 alt=""
@@ -127,7 +127,7 @@
                   <span>Today's sale</span>
                 </div>
               </div>
-              <div class="col bg-white mx-3 py-4 d-flex">
+              <div class="col bg-white mx-3 py-4 d-flex mt-2">
                 <img
                 src="Images/money-bag.svg"
                 alt=""
@@ -141,22 +141,50 @@
               </div>
             </div>
           </div>
+
+
           <!-- graph implemented -->
-          <div class="row mt-4" style="height: 40%; width: 100%">
-            <div class="col bg-white ms-3" style="width: 75vw;">
-              <h2>sale</h2>
+          <div class="row mt-4 " style="height: 40%; width: 100%" id="gph">
+
+            <div class="col col-8 bg-white ms-4 " id="gph-l">
+              <div class="d-flex flex-row justify-content-between mb-3">
+                <h2>sale</h2>
+                <div>
+                  <span class="text-muted  ">weekly <span class="text-muted ms-3 me-3">monthly </span> <span
+                      class="text-danger">yearly</span>
+                </div>
+              </div>
               <img src="images/data-graph.png" alt="" class="img-fluid" style="height: auto; width: 100%;">
             </div>
-            <div class="col-1 bg-body-secondary" style="width: 2vw;"></div>
-            <div class="col col-3 bg-white"; style="width: 23vw;" >
+
+
+            <div class="col col-4 bg-white "  id="gph-r">
               <h2>Sales by Country</h2>
-              <img src="images/pie-chart.svg" alt="" class="img-fluid mx-auto my-auto d-block">
+              <img src="images/pie-chart.svg" alt="" class="img-fluid mx-auto mt-4 d-block" >
+              <div class="row mt-5">
+                <div class="col col-xxl-7 col-xl-12 col-md-12"><img src="images/radio-checked-icon.svg" alt="">
+                  <span>United States of America</span>
+                </div>
+                <div class="col col-xxl-5 col-xl-12 col-md-12"><img src="images/radio-checked-icon.svg" alt="">
+                  <span>Canada</span>
+                </div>
+              </div>
+              <div class="row mt-2">
+                <div class="col col-xxl-7 col-xl-12 col-md-12"><img src="images/radio-checked-icon.svg" alt="">
+                  <span>Russia</span>
+                </div>
+                <div class="col col-xxl-5 col-xl-12 col-md-12"><img src="images/radio-checked-icon.svg" alt="">
+                  <span>India</span>
+                </div>
+              </div>
             </div>
+          </div>
+
             <div>
               
               <!-- here -->
-              <div class="row mt-5 ms-3 me-3 bg-body-secondary" style="height: 40%;width: 100%;">
-                <div class="tbl" style="height: fit-content;">
+              <div class="row mt-5 ms-3 me-3 bg-body-secondary" style="height: 40%;width: 100%;" id="tbl">
+                <div class="table-responsive" style="height: fit-content;">
                   <table class="table">
                     <thead>
                       <tr>
@@ -250,7 +278,7 @@
         <!-- here -->
         <!-- here -->
       </div>
-    </div>
+    
     <script src="js/dashboard.js"></script>
   </body>
   </html>

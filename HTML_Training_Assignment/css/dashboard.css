@@ -76,6 +76,45 @@ div.custom
  
 }
 
+#gph-l
+{
+    width: 65%;
+}
+
+#gph-r
+{
+    margin-left: 3rem;
+    width: 28%;
+}
+
+@media only  screen and (max-width:911px){
+     
+#sidebar 
+{
+    position: absolute;
+    background-color: #FAFAFA;
+    height: fit-content;
+    width: 220px;
+}
+}
+
+
+@media only  screen and (max-width:1263px){
+     
+#gph-l
+{
+    width: 98%;
+}
+
+#gph-r
+{
+    width: 98%;
+    margin-left:25px;
+    margin-top: 15px
+}
+}
+
+
 
 
 
