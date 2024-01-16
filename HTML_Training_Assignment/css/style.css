@@ -110,9 +110,20 @@ form .inp input {
   }
   form .inp input {
     width: 200px;
-    }
-
-  #login_form #login_text {
-   white-space: nowrap;
   }
+  
+  #login_form #login_text {
+    white-space: nowrap;
+  }
+}
+
+@media only screen and (max-width: 427px)
+{
+  #hero_img img {
+    height: 300px;
+    width: 330px;
+    margin-left: 55px ;
+    
+  }
+
 }
