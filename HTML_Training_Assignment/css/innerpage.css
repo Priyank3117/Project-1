@@ -20,4 +20,54 @@ img{
 .flex-row span{
     margin-left: 5px;
 }
-/* sidebar css */
+
+.mobile {
+    display: none;
+  }
+  
+  .search-icon {
+    height: 30px;
+    margin-left: 76px;
+  }
+
+  @media only screen and (max-width: 911px) {
+    #sidebar {
+      position: absolute;
+      background-color: #fafafa;
+      height: fit-content;
+      width: 220px;
+      display: none;
+    }
+
+    #main-content
+    {
+        width: 100%;
+    }
+
+ 
+  }
+
+
+@media only screen and (max-width: 1254px) {
+    .header {
+      display: none;
+    }
+  
+    .mobile {
+      display: inline-block;
+    }
+    .search {
+      display: none;
+    }
+    .name {
+      display: none;
+    }
+    .search-icon {
+      margin-left: 21px;
+    }
+    .profile
+    {
+      margin-left: 8px;
+      margin-right: 8px;
+    }
+  }
